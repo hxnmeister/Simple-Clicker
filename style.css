@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color:darkcyan;
+}
+div
+{
+    padding: 5px;
+}
+p
+{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 2px dashed blue;
+}
+button, #mainbutton
+{
+    background-color:cyan;
+}
+button, #username
+{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px black;
+    transition: box-shadow, padding 0.1s linear 0s;
+}
+button:active
+{
+    box-shadow: 2px 2px 2px black;
+    padding: 4px;
+}
+
+#clicker
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mainbutton
+{
+    width: 400px;
+    height: 400px;
+
+    box-shadow: 0px 0px 40px darkturquoise;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 0.2px solid black;
+
+    transition: box-shadow, background-color 0.1s ease-in 0s;
+}
+#mainbutton:active
+{
+    box-shadow: none;
+    background-color: darkturquoise;
+}
+
+.deactivatebutton
+{
+    opacity: 0.2;
+    pointer-events: none;
+}
